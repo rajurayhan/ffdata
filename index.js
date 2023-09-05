@@ -6,9 +6,9 @@ const fs = require('fs');
 const baseUrl = 'http://mis.molwa.gov.bd/freedom-fighter-list';
 
 // Division IDs and other filters (modify as needed)
-const divisionIds = [3]; // Add more division IDs as needed
+const divisionIds = [1,2,3,4,5,6,7,9]; // Add more division IDs as needed
 const filters = {
-    district_id: 21,
+    district_id: '',
     thana_id: '',
     name: '',
     prove_type: '',
